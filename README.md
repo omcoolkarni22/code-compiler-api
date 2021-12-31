@@ -15,6 +15,11 @@ The production version is deployed to __Heroku__ and can be accessed at [here](h
 6. Example Output: {'Input': {'language': 'PYTHON', 'source': 'i = int(input())\nj = int(input())\nprint(i,j)', 'testcases': '10\n10', 'timeout': 10}, 'Output': {'ReturnCode': 0, 'stdout': '10 10\n', 'timeoutError': False}, 'Request Status Code': 200}
 7. You can use Postman or simply execute post.py file and make edits accordingly.
 
+<hr>
+**Output:**<br>
+[![api-output.png](https://i.postimg.cc/FH5QfFdW/api-output.png)](https://postimg.cc/LnTWwpVL)
+
+<hr>
 **Installing in your Local System:**
 1. The installation is only supported on Linux Based Machines and doesn't support Windows OS.
 2. [Python](https://www.python.org/downloads/) must be installed in order to execute the API. Clone the repo using _git clone https://github.com/omcoolkarni22/compiler-api.git_.
