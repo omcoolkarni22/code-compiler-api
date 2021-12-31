@@ -11,8 +11,9 @@ The production version is deployed to __Heroku__ and can be accessed at [here](h
 2. The data required for compilation is __source code, language, input, and timeout__.
 3. You must name languages in this format _C-> C, C++ -> CPP_ and _Python -> PYTHON_ while sending a request.
 4. The datatypes of the post data must be _source: str, language: str, input: str_ and _timeout: int_.
-5. Ex: {source: 'a = input()\nprint(a)', language: 'PYTHON', input: '5', timeout: 10}
-6. I recommend using Postman for sending the requests. 
+5. Example Input: {source: 'i = int(input())\nj = int(input())\nprint(i,j)', language: 'PYTHON', testcases: '10\n10', timeout: 10}
+6. Example Output: {'Input': {'language': 'PYTHON', 'source': 'i = int(input())\nj = int(input())\nprint(i,j)', 'testcases': '10\n10', 'timeout': 10}, 'Output': {'ReturnCode': 0, 'stdout': '10 10\n', 'timeoutError': False}, 'Request Status Code': 200}
+7. I recommend using Postman for sending the requests or you can also use the post.py file.
 
 **Installing in your Local System:**
 1. The installation is only supported on Linux Based Machines and doesn't support Windows OS.
