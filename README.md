@@ -13,14 +13,14 @@ The production version is deployed to __Heroku__ and can be accessed at [here](h
 4. The datatypes of the post data must be _source: str, language: str, input: str_ and _timeout: int_.
 5. Example Input: {source: 'i = int(input())\nj = int(input())\nprint(i,j)', language: 'PYTHON', testcases: '10\n10', timeout: 10}
 6. Example Output: {'Input': {'language': 'PYTHON', 'source': 'i = int(input())\nj = int(input())\nprint(i,j)', 'testcases': '10\n10', 'timeout': 10}, 'Output': {'ReturnCode': 0, 'stdout': '10 10\n', 'timeoutError': False}, 'Request Status Code': 200}
-7. I recommend using Postman for sending the requests or you can also use the post.py file.
+7. You can use Postman or simply execute post.py file and make edits accordingly.
 
 **Installing in your Local System:**
 1. The installation is only supported on Linux Based Machines and doesn't support Windows OS.
 2. [Python](https://www.python.org/downloads/) must be installed in order to execute the API. Clone the repo using _git clone https://github.com/omcoolkarni22/compiler-api.git_.
 3. Install the requirements.txt file using command _pip install -r requirements.txt_(pip must be installed).
 4. Once you are ready with installed requirements, you can directly execute _python app.py_ or use flask environment variable _export FLASK_APP=app_ and _flask run_.
-5. the above command will start a development server on localhost port: 5000 and the app will be ready for use.
+5. The above command will start a development server on localhost port: 5000 and the app will be ready for use.
 
 **P.S.:** <br>
 1. GET methods are not supported by any means.
