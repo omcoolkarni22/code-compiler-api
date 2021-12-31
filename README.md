@@ -17,7 +17,7 @@ The production version is deployed to __Heroku__ and can be accessed at [here](h
 
 <hr>
 **Output:**<br>
-[![api-output.png](https://i.postimg.cc/FH5QfFdW/api-output.png)](https://postimg.cc/LnTWwpVL)
+![api-output.png](api_output.PNG)
 
 <hr>
 **Installing in your Local System:**
