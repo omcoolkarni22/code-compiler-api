@@ -9,8 +9,8 @@ The production version is deployed to __Heroku__ and can be accessed at [here](h
 **Using API:**<br>
 1. The API uses __POST method__ for code compilation and the endpoint for compilation is https://flask-compiler-api.herokuapp.com/execute/v2/.
 2. The data required for compilation is __source code, language, input, and timeout__.
-3. You must name languages in this format *C-> C, C++ -> CPP_ and _Python -> PYTHON* while sending a request.
-4. The datatypes of the post data must be *source: str, language: str, input: str_ and _timeout: int*.
+3. You must name languages in this format *C-> C, C++ -> CPP and Python -> PYTHON* while sending a request.
+4. The datatypes of the post data must be *source: str, language: str, input: str and timeout: int*.
 5. Example Input: <br>
 ```{source: 'i = int(input())\nj = int(input())\nprint(i,j)', language: 'PYTHON', testcases: '10\n10', timeout: 10}```
 6. Example Output: <br> 
